@@ -1,0 +1,47 @@
+@charset "utf-8";
+body,div,ul,li,h4,p{margin:0;padding:0;}
+body{font:12px/1.8 arial;color:#fff;}
+a{color:#fff;text-decoration:none;background:#666;padding:2px 5px;}
+a:hover{background:#F90;}
+
+/* box */
+.tabcon{position:relative;width:754px;height:292px;margin:0px auto 0;}
+.tabcon ul{position:relative;width:754px;height:292px;}
+.tabcon li{position:absolute;border:2px solid #622419;padding: 10px; tabcon-shadow: 0px 5px 5px #381e0f; list-style:none;background:#fff;width:0;height:0;top:146px;left:377px;z-index:111;cursor:pointer;overflow:hidden;border-radius:3px;}
+.tabcon li img{width:100%;height:100%;vertical-align:top;}
+.tabcon li .product-info {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    line-height: 50px;
+    height: 50px;
+    color: #333;
+    text-align: center;
+    background:url(../images/product/text_bg.png) 50% 0 no-repeat;
+}
+.tabcon .prev, .tabcon .next{position:absolute;top:50%;width:39px;height:80px;margin-top:-40px;overflow:hidden;text-indent:-999px;cursor:pointer;background:url(../images/btn.png) no-repeat;}
+.tabcon .prev{left:-60px;}
+.tabcon .next{right:-60px;background-position:-39px 0;}
+.my-product-list .product-class{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.my-product-list .product-class ul li {
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    width: 100px;
+    text-align: center;
+    color: #333;
+    background: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.my-product-list .product-class ul li:hover,
+.my-product-list .product-class ul li.active {
+    background: #491f18;
+    color: #fff;
+}
+.hide{display: none;}
